@@ -289,6 +289,53 @@ section {
 .final-no {
   color:#ccc;
 }
+.landing .title {
+  font-family:'Quicksand';
+  letter-spacing:-0.1em;
+}
+.home header {
+  width:100%;
+  padding:2em 3em;
+  position:relative;
+}
+header .logo {
+  width:3em;
+}
+.landing {
+  width:100%;
+  float:left;
+  padding:3em 0 0 0;
+  text-align:center;
+}
+  .landing h1 {
+    line-height:125%;
+    margin-top:2em;
+  }
+  .landing p {
+    line-height:150%;
+    font-size:1.35em;
+    font-weight:300;
+    color:#666;
+  }
+  .landing p + .button {
+    margin-top:3em;
+  }
+  .button {
+    display:inline-block;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    padding:1em 2em;
+    border-radius:2em;
+    background-color:#C90;
+    color:#FFF;
+    font-size:0.85em;
+  }
+  .button:hover {
+    text-decoration:none;
+    background-color:#997300;
+    color:#FFF;
+  }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }
