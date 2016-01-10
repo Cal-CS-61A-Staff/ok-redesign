@@ -329,14 +329,22 @@ header .logo {
     text-transform:uppercase;
     letter-spacing:0.1em;
     padding:1em 2em;
-    border-radius:2em;
-    background-color:#C90;
+    border-radius:3em;
     color:#FFF;
     font-size:0.85em;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9715+0,468dc6+52,17417f+100 */
+    background: #ff9715; /* Old browsers */
+    background: -moz-linear-gradient(left,  #ff9715 0%, #468dc6 52%, #17417f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #ff9715 0%,#468dc6 52%,#17417f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #ff9715 0%,#468dc6 52%,#17417f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9715', endColorstr='#17417f',GradientType=1 ); /* IE6-9 */
+
+    border:0.5em solid #FFF;
   }
   .button:hover {
     text-decoration:none;
-    background-color:#997300;
+    border:0.5em solid rgba(255,255,255,0.75);
     color:#FFF;
   }
 /* Small devices (tablets, 768px and up) */
