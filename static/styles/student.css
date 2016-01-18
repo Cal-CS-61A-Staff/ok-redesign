@@ -52,6 +52,7 @@ header,.header-bg {
     cursor:pointer;
   }
   .header-text {
+    float:right;
     padding:1.25em 1em;
   }
   .header-text span {
@@ -69,6 +70,11 @@ header,.header-bg {
     }
     .stripe + .stripe {
       margin-top:4px;
+    }
+    a.header-text:hover {
+      color:#FFF;
+      text-decoration:none;
+      background-color:rgba(255,255,255,0.15)
     }
 aside.sidebar {
   background-color:#f6f6f6;
