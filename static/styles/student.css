@@ -159,11 +159,13 @@ section {
     .content {
       min-height:100%;
       padding:0;
+      float:left;
+      padding:0 0 2em 0;
       margin-top:4em;
     }
     .subcontent {
+      float:left;
       box-sizing:border-box;
-      padding:1em 2em;
     }
     .note {
       text-align:center;
@@ -376,6 +378,31 @@ header .logo {
   margin:1em 0;
   color:#666;
 }
+.content h1 {
+  padding:0 0.5em;
+}
+.content h2 {
+  padding:0 0.75em 0.5em 0.75em;
+}
+.cell {
+  padding:2em;
+}
+.cell:nth-child(even) {
+  background-color:#f6f6f6;
+}
+  .cell-title {
+    font-size:1.5em;
+  }
+  .cell .due-dot {
+    position:relative;
+    float:left;
+    display:inline-block;
+    margin:0.4em;
+    left:0;
+  }
+  .cell .cell-status {
+    margin-top:1em;
+  }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .subcontent {
