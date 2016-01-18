@@ -347,6 +347,21 @@ header .logo {
     border:0.25em solid rgba(255,255,255,0.75);
     color:#FFF;
   }
+  .button-small {
+    background-color:#eee;
+    color:#999;
+    border-radius:0.25em;
+    display:inline-block;
+    float:left;
+    margin:-0.25em 0.25em;
+    padding:0.5em 0.75em;
+    font-size:0.9em;
+  }
+    .button-small:hover {
+      background-color:#666;
+      color:#FFF;
+      text-decoration:none;
+    }
 .invite-input {
   padding:0.5em;
   margin:1em 0;
