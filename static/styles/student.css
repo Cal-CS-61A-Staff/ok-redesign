@@ -329,7 +329,7 @@ header .logo {
     text-transform:uppercase;
     letter-spacing:0.1em;
     padding:1em 2em;
-    border-radius:3em;
+    border-radius:0.5em;
     color:#FFF;
     font-size:0.85em;
 
@@ -340,13 +340,18 @@ header .logo {
     background: linear-gradient(to right,  #ff9715 0%,#468dc6 52%,#17417f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9715', endColorstr='#17417f',GradientType=1 ); /* IE6-9 */
 
-    border:0.5em solid #FFF;
+    border:0.25em solid #FFF;
   }
   .button:hover {
     text-decoration:none;
-    border:0.5em solid rgba(255,255,255,0.75);
+    border:0.25em solid rgba(255,255,255,0.75);
     color:#FFF;
   }
+.invite-input {
+  padding:0.5em;
+  margin:1em 0;
+  color:#666;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }
