@@ -400,9 +400,12 @@ header .logo {
     margin:0.4em;
     left:0;
   }
-  .cell .cell-status {
+  .cell-status {
     margin-top:1em;
   }
+    .cell-status + .cell-status {
+      margin-top:0.25em;
+    }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .subcontent {
